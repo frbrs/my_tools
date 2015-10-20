@@ -3,7 +3,7 @@ from PySide import QtGui
 import maya.OpenMayaUI as mui
 import shiboken
 
-# Test modification 
+# Test modification
 
 def get_maya_window():
     pointer = mui.MQtUtil.mainWindow()
