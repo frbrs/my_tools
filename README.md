@@ -1,3 +1,2 @@
-# my_tools
-My first repository
-print "Hello!"
+# Tools for Maya and Nuke
+This is my first repository
