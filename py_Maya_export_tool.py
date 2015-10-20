@@ -3,8 +3,6 @@ from PySide import QtGui
 import maya.OpenMayaUI as mui
 import shiboken
 
-# Test modification 2
-
 def get_maya_window():
     pointer = mui.MQtUtil.mainWindow()
     return shiboken.wrapInstance(long(pointer), QtGui.QWidget)
